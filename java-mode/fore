@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fore
+# key: fore
+# --
+for(${1:Object} ${2:o} : ${3:it}){
+    $0
+}
