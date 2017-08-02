@@ -4,8 +4,6 @@
 # --
 try {
     $0
-}
-catch (${1:Throwable e}) {
-      ${2:System.out.println("Error " + e.getMessage());
-      e.printStackTrace();}
+} catch (${1:Throwable e}) {
+      e.printStackTrace();
 }
