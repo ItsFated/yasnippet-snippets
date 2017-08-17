@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: test2
+# key: test2
+# --
+start = System.currentTimeMillis();
+for(int i = 0; i < ${1:9999}; i++) {
+    $2
+}
+end = System.currentTimeMillis();
